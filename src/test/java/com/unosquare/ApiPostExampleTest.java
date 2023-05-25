@@ -15,11 +15,11 @@ public class ApiPostExampleTest {
 	  requestParams.put("name","JohnAPI");
 	  requestParams.put("job","QA");
 	  
-		 RestAssured.baseURI = "https://reqres.in/api"; 
-		 RequestSpecification httpRequest = RestAssured.given(); 
-		 httpRequest.headers("Content-Type", "application/json");
-		 httpRequest.body(requestParams.toString());
-		 Response response = httpRequest.post("/users");
+	 RestAssured.baseURI = "https://reqres.in/api"; 
+	 RequestSpecification httpRequest = RestAssured.given(); 
+	 httpRequest.headers("Content-Type", "application/json");
+	 httpRequest.body(requestParams.toString());
+	 Response response = httpRequest.post("/users");
 	  
   }
   @BeforeMethod
