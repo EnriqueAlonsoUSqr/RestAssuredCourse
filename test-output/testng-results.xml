@@ -5,29 +5,29 @@
       <![CDATA[Sucess 200 validation]]>
     </line>
     <line>
-      <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+      <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-25T09:37:06 CST" name="Default suite" finished-at="2023-05-25T09:37:08 CST" duration-ms="2167">
+  <suite started-at="2023-05-25T10:20:01 CST" name="Default suite" finished-at="2023-05-25T10:20:03 CST" duration-ms="2213">
     <groups>
     </groups>
-    <test started-at="2023-05-25T09:37:06 CST" name="Default test" finished-at="2023-05-25T09:37:08 CST" duration-ms="2167">
-      <class name="com.unosquare.ApiGetExampleTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.ApiGetExampleTest@3aefe5e5]" started-at="2023-05-25T09:37:06 CST" name="beforeMethod" finished-at="2023-05-25T09:37:06 CST" duration-ms="4" status="PASS">
+    <test started-at="2023-05-25T10:20:01 CST" name="Default test" finished-at="2023-05-25T10:20:03 CST" duration-ms="2213">
+      <class name="com.unosquare.FirstPrUnknown">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.FirstPrUnknown@3aefe5e5]" started-at="2023-05-25T10:20:01 CST" name="beforeMethod" finished-at="2023-05-25T10:20:01 CST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:com.unosquare.ApiGetExampleTest@3aefe5e5]" started-at="2023-05-25T09:37:06 CST" name="f" finished-at="2023-05-25T09:37:08 CST" duration-ms="2133" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.unosquare.FirstPrUnknown@3aefe5e5]" started-at="2023-05-25T10:20:01 CST" name="f" finished-at="2023-05-25T10:20:03 CST" duration-ms="2178" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sucess 200 validation]]>
             </line>
             <line>
-              <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+              <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
             </line>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.unosquare.ApiGetExampleTest -->
+      </class> <!-- com.unosquare.FirstPrUnknown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
