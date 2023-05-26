@@ -11,9 +11,9 @@ import io.restassured.specification.RequestSpecification;
 public class ApiPostExampleTest {
   @Test
   public void f() {
-	  JSONObject requestParams = new JSONObject();
-	  requestParams.put("name","JohnAPI");
-	  requestParams.put("job","QA");
+		  JSONObject requestParams = new JSONObject();
+		  requestParams.put("name","JohnAPI");
+		  requestParams.put("job","QA");
 	  
 		 RestAssured.baseURI = "https://reqres.in/api"; 
 		 RequestSpecification httpRequest = RestAssured.given(); 
